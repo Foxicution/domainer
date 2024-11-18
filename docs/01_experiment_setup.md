@@ -15,17 +15,7 @@ from outside. Ideas (ranked in terms of projected data quality):
 
 ## Collection
 
-After searching, two candidate datasets were identified:
-
-1. YCombinator companies dataset (problem, the list is a bit old (2023) and not
-   full) https://www.kaggle.com/datasets/miguelcorraljr/y-combinator-directory
-2. BigPicture LinkedIn companies dataset (problem, the provided dataset is only
-   a sample of 105 companies)
-   https://docs.bigpicture.io/docs/datasets/linkedin-companies
-
-Since both datasets contain problems, it was decided to combine the data from
-BigPicture dataset with data crawled from three startup incubator companies:
-YCombinator, Enterpreneur First and Antler.
+After searching, some good candidate datasets were identified, but none contained the description and url data. Because of this, it was decided to crawl this data from three startup incubator companies: YCombinator, Enterpreneur First and Antler.
 
 The dataset creation code is found in `domainer/dataset.py`. The final dataset
 can be found under `data/final_train.csv`, `data/final_test.csv` and
