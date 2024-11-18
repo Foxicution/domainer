@@ -40,3 +40,4 @@ deemed viable):
 - `https://bng.visual.com/v1/generateWords`
 - `https://www.hostinger.com/api-proxy/api/domain/generate-by-description`
 
+# Performance evaluation/Benchmarking
